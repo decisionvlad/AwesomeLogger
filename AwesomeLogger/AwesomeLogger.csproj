@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Vlad Niculescu-Bolintin</Authors>
+    <Description>Easy to use logging library that allows logs to be colorful and nicely rendered for more efficient logging.</Description>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Colorful.Console" Version="1.2.9" />
+    <PackageReference Include="Polly" Version="6.0.1" />
+  </ItemGroup>
+
+</Project>
